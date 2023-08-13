@@ -900,13 +900,12 @@ body {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border: none;
   cursor: pointer;
 }
 
 .subscribe-icon {
-  stroke: var(--white-color);
+  margin-left: 16px;
 }
 
 /* Modal Window */
