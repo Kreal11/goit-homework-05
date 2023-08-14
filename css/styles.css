@@ -1102,7 +1102,8 @@ input[type="checkbox"]:checked + .order-label .label-privacy-icon {
   height: 56px;
   color: var(--white-color);
   text-align: center;
-
+  margin-left: auto;
+  margin-right: auto;
   /* Button Text */
   font-weight: 500;
   line-height: 1.5; /* 150% */
