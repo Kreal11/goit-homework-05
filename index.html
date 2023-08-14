@@ -479,7 +479,7 @@ for Your Business"
               ><input
                 class="subscribe-input"
                 type="email"
-                name="email"
+                name="email-subscribe"
                 placeholder="E-mail"
             /></label>
             <button type="submit" class="subscribe-footer-button">
@@ -499,6 +499,63 @@ for Your Business"
             <use href="./images/icons.svg#icon-button-close"></use>
           </svg>
         </button>
+        <p class="order-title">Leave your contacts and we will call you back</p>
+        <form class="order-form">
+          <div class="label-wrapper">
+            <label class="order-label" for="user-name"
+              ><span class="order-label-text">Name</span></label
+            >
+            <div class="input-wrapper">
+              <input
+                class="input"
+                type="text"
+                name="user-name"
+                id="user-name"
+              />
+              <svg class="icon-input" width="18" height="24">
+                <use href="./images/icons.svg#icon-name-order"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="label-wrapper">
+            <label class="order-label" for="user-name"
+              ><span class="order-label-text">Phone</span></label
+            >
+            <div class="input-wrapper">
+              <input class="input" type="tel" name="phone" id="user-name" />
+              <svg class="icon-input" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-order"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="label-wrapper">
+            <label class="order-label" for="user-name"
+              ><span class="order-label-text">Email</span></label
+            >
+            <div class="input-wrapper">
+              <input
+                class="input"
+                type="email"
+                name="email-order"
+                id="user-name"
+              />
+              <svg class="icon-input" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-order"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="label-wrapper">
+            <label class="order-label" for="user-name"
+              ><span class="order-label-text">Comment</span></label
+            >
+            <textarea name="comment" placeholder="Text input"></textarea>
+          </div>
+          <label lass="order-label">
+            <input class="property-input" type="checkbox" name="property" />
+            I accept the terms and conditions of the Privacy Policy
+          </label>
+          <button class="order-button">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
