@@ -1021,6 +1021,7 @@ body {
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-area:hover,
@@ -1036,7 +1037,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-area:focus .icon-input {
+.input-area:focus + .icon-input {
   fill: #4d5ae5;
 }
 
